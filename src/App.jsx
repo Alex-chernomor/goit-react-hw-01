@@ -8,7 +8,6 @@ import transactions from './components/TransactionHistory/transactions.json';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
