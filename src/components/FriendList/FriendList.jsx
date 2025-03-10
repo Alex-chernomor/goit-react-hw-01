@@ -1,10 +1,10 @@
 import css from '../FriendList/FriendList.module.css'
 
 export default function FriendList({friends}) {   
-    const UsersFriends = ({friends})=>{
-        return (
-            <ul className={css.friendList}>
-                {
+
+  return (
+    <ul className={css.friendList}>
+           {
                     friends.map((friend)=>{
                         return <li key = {friend.id} className={css.friendCard}>
                                     <img src={friend.avatar} alt={friend.name} className={css.avatar} />
@@ -13,13 +13,7 @@ export default function FriendList({friends}) {
                                  </li>
                     })
                 }
-            </ul>
-        )
-    }    
-  return (
-    <div>
-        <UsersFriends friends = {friends}/>
-    </div>
+    </ul>
     
   )
 }
