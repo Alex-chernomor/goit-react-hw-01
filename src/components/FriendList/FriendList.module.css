@@ -1,0 +1,30 @@
+.friendCard{
+    width: 150px;
+    background-color: lightgrey;
+    border: solid red 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.friendList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    width: 70px;
+
+}
+
+.name{
+    font-size: 25px;
+    color: black;
+}
+
+.onLine{
+    color: green;
+}
+
+.offLine{
+    color:red;
+}
